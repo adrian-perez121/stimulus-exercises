@@ -14,5 +14,26 @@
   <a data-toggle-target="object" data-action="click->toggle#change" class="hidden">Now I'm On!</a>
 </div>
 
+<div>
+  <form action="example.com">
+    <ul>
+      <li data-controller="toggle" data-toggle-change-class="highlight" data-toggle-target="object">
+        <input type="checkbox" id="California" name="states" value="CA" data-action="click->toggle#change">
+        <label for="California">California</label>
+      </li>
+
+      <li data-controller="toggle" data-toggle-change-class="highlight" data-toggle-target="object">
+        <input type="checkbox" id="Oregon" name="states" value="OR" data-action="click->toggle#change">
+        <label for="Oregon">Oregon</label>
+      </li>
+
+      <li data-controller="toggle" data-toggle-change-class="highlight" data-toggle-target="object">
+        <input type="checkbox" id="Arizona" name="States" value="AZ" data-action="click->toggle#change">
+        <label for="Arizona">Arizona</label>
+      </li>
+    </ul>
+  </form>
+</div>
+
 
 
