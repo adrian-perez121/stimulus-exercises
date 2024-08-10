@@ -35,5 +35,11 @@
   </form>
 </div>
 
+<div data-controller="word-count" data-word-count-max-length-value="280">
+  <label for="user_post">Enter Your Post:</label> <br>
+  <textarea name="post" id="user_post" cols="30" rows="10" maxlength="280" data-word-count-target="textField" data-action="input->word-count#lengthOutput"></textarea><br>
+  <span data-word-count-target="characterOutput"></span>
+</div>
+
 
 

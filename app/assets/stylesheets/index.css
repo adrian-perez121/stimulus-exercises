@@ -13,3 +13,7 @@ ul {
 .highlight {
   background: rgba(101, 250, 255, 0.47);
 }
+
+.red {
+  color: red;
+}
