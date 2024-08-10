@@ -1,0 +1,2 @@
+module TestPagesHelper
+end
