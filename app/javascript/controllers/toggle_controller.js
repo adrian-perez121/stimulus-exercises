@@ -6,6 +6,9 @@ export default class extends Controller {
   static classes = [ "change" ]
 
   change() {
-    this.objectTarget.classList.toggle(this.changeClass)
+    // this.objectTarget.classList.toggle(this.changeClass)
+    this.objectTargets.forEach(target => {
+      target.classList.toggle(this.changeClass)
+    })
   }
 }
